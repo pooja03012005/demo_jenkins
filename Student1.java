@@ -1,5 +1,5 @@
 
-class Student1 {
+class Demo {
 
     String name = "Pooja";
     int age = 20;
@@ -12,10 +12,10 @@ class Student1 {
     }
 }
 
-class Demo {
+public class Student1 {
 
     public static void main(String args[]) {
-        Student1 s = new Student1();
+        Demo s = new Demo();
         s.display();
     }
 }
